@@ -1,0 +1,14 @@
+$config['cp_session_ttl'] = 43200; // 12 часов сесси в панели
+$config['cache_driver'] = 'dummy';
+$config['memcached'] = array(
+        'host' => 'localhost',
+        'port' => 11211,
+        'weight' => 2,
+    );
+$config['redis'] = array(
+	'host' => 'localhost',
+	'port' => 6379,
+	'weight' => 2,
+);
+$config['show_ee_news'] = 'n';
+$config['allow_php'] = 'y';
